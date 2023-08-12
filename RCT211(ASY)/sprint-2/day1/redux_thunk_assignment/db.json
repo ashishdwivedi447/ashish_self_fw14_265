@@ -1,0 +1,74 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Buy Milk",
+      "status": "false"
+    },
+    {
+      "id": 1,
+      "title": "Buy Potato",
+      "status": "false"
+    },
+    {
+      "id": 1,
+      "title": "Buy Tomatto",
+      "status": "false"
+    },
+    {
+      "id": 1,
+      "title": "Buy Banana",
+      "status": "false"
+    },
+    {
+      "id": "b2c13a4a-44c8-422a-b092-f55e1530f6a0",
+      "title": "learn raect",
+      "status": false
+    },
+    {
+      "id": "7ce3a03b-5993-4aac-a3df-5c4e95f7d958",
+      "title": "redux",
+      "status": false
+    },
+    {
+      "id": "fe666867-74b2-43ce-9272-90913492ffdb",
+      "title": "javascript",
+      "status": false
+    },
+    {
+      "id": "b9ed5a83-8bbb-450f-831a-a12ce98c0d82",
+      "title": "typescript",
+      "status": false
+    },
+    {
+      "id": "951e9813-0b44-499e-ba75-840a19e75950",
+      "title": "ecamsscrpt",
+      "status": false
+    },
+    {
+      "id": "b1522bb7-7af5-48d4-97ae-28898e7f636d",
+      "title": "err",
+      "status": false
+    },
+    {
+      "id": "5b2bd567-2359-4420-8814-a0018ad038aa",
+      "title": "",
+      "status": false
+    },
+    {
+      "id": "e5ff8625-4d40-485c-ab45-0190ff21531b",
+      "title": "wrwer",
+      "status": false
+    },
+    {
+      "id": "b170336e-960c-4f07-b6e3-4c93b076e8e5",
+      "title": "sasafs",
+      "status": false
+    },
+    {
+      "id": "5e1683dc-98ff-463a-bbc8-e10b32fa6a7d",
+      "title": "",
+      "status": false
+    }
+  ]
+}

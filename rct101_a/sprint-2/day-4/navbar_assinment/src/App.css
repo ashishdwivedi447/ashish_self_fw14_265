@@ -1,0 +1,15 @@
+.navbar{
+  display: flex;
+  justify-content:space-around;
+  padding-top: 5px;
+}
+.first_part{
+display: flex;
+align-items: center;
+gap:20px;
+}
+.secpart{
+  display: flex;
+  align-items: center;
+  gap:30px;
+}

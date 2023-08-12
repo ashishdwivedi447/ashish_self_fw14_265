@@ -1,0 +1,46 @@
+.car_pageheading{
+    font-size: 40px;
+    margin:20px 0 0 45%;
+    color:red;
+    text-decoration: underline;
+}
+
+.filter_container{
+    display: flex;
+    justify-content: space-around;
+    margin:10px 0 0 0;
+}
+
+#image{
+    height:100px;
+}
+#brand_year{
+    display: flex;
+    gap:40px;
+}
+
+#kmprice{
+    display: flex;
+    gap:40px;
+}
+
+#buttonsdiv{
+    display:flex;
+    gap:20px;
+}
+
+#boxcontainer{
+    border:1px solid silver;
+   width:250px;
+    gap:10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#appendData{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10px;
+    margin:40px 0 0 0;
+    padding:0 50px 0 50px;
+    
+}

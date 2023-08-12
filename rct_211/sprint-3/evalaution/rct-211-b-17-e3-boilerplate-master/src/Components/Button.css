@@ -1,0 +1,39 @@
+.white{
+    background-color: white;
+}
+
+.md{
+    font-size: medium;
+}
+.sm{
+    font-size: small;
+
+}
+.lg{
+    font-size: large;
+}
+.xl{
+    font-size: x-large;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+
+.solid{
+    border:1px solid brown
+}
+.ghost{
+    border:none;
+}
+.outline{
+    border:1ps solid black;
+}

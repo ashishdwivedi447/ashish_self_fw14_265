@@ -1,0 +1,36 @@
+#root{
+background-color: black;
+height:50px;
+display: flex;
+
+
+
+}
+.logo{
+  color:aliceblue;
+  margin-left: 55px;
+  
+}
+.links{
+  
+  margin-left: 430px;
+  }
+.links>a{
+  margin-right: 12px;
+  text-decoration: none;
+  justify-content: center;
+  color:white;
+}
+button{
+  background-color: blue;
+  color:white;
+  border-radius: 10px;
+  font-size: 15px;
+  border:none;
+  margin-left: 400px;
+}
+.App{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

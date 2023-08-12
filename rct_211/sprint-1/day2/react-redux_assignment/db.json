@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "id": "7d2dd1d7-63fe-44b7-9a0f-501b6e575b0b",
+      "text": "learn angular",
+      "state": "false"
+    },
+    {
+      "id": "4323ad0b-bb14-4160-8645-667711c1e321",
+      "text": "buy papaya",
+      "state": false
+    }
+  ]
+}

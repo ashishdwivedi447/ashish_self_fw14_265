@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.login_heading{
+    margin-left: 45%;
+    font-size: 30px;
+}
+
+.login_container{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+   
+    align-items: center;
+    margin:50px 0 0 40px 
+}
+    </style>
+</head>
+<body>
+    <div class="login_heading">Login Page</div>
+
+    <div class="login_container">
+        <div>
+            <input type="password" placeholder="password" id="password">
+        </div>
+        <div>
+            <input type="text" placeholder="username" id="username">
+        </div>
+       
+        <div>
+            <button onClick=(Signin())>Submit</button>
+        </div>
+       
+     </div>
+
+     <div id="error"></div>
+</body>
+</html>
+
+<script>
+     function Signin(){
+        let password=document.querySelector("#password").value;
+        let username=document.querySelector("#username").value;
+
+        //console.log(password,username);
+
+        
+        try{
+                fetch(" https://masai-api-mocker.herokuapp.com/auth/login",{
+                    method: "POST",
+
+                                body: JSON.stringify({
+      
+        "password":password,
+        "username": username,
+       
+       
+    }),
+
+    headers: {
+        "Content-type": "application/json"
+    }
+                })
+                .then((res)=>res.json())
+                .then((data)=>{
+                    console.log(data);
+                 
+                        // window.location.href="login.html"
+                    
+                });
+           } 
+           catch(error){
+             console.log(error);
+             let p=document.createElement("p");
+             p.innerText=error;
+             document.querySelector("#error").append(p);
+           }
+     }
+</script>

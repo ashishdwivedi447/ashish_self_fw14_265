@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.register_heading{
+    margin-left: 45%;
+    font-size: 30px;
+}
+
+.register_container{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+   
+    align-items: center;
+    margin:50px 0 0 40px
+}
+    </style>
+</head>
+<body>
+     <div class="register_heading">Register Page</div>
+
+     <div class="register_container">
+        <div>
+            <input type="text" placeholder="Name" id="name">
+        </div>
+        <div>
+            <input type="text" placeholder="Email" id="email">
+        </div>
+        <div>
+            <input type="text" placeholder="username" id="username">
+        </div>
+        <div>
+            <input type="password" placeholder="password" id="password">
+        </div>
+        <div>
+            <input type="text" placeholder="mobile" id="mobile">
+        </div>
+        <div>
+            <input type="text" placeholder="description..." id="description">
+        </div>
+        <div>
+            <button onClick=(Signup())>Submit</button>
+        </div>
+     </div>
+     <div id="error">
+
+     </div>
+</body>
+</html>
+
+
+<script>
+          function Signup(){
+            let name=document.querySelector("#name").value;
+            let email=document.querySelector("#email").value;
+            let username=document.querySelector("#username").value;
+            let password=document.querySelector("#password").value;
+            let mobile=document.querySelector("#mobile").value;
+            let description =document.querySelector("#description").value;
+
+
+           // console.log(name,email,username,password,mobile,description);
+
+           try{
+                fetch("https://masai-api-mocker.herokuapp.com/auth/register",{
+                    method: "POST",
+
+                    body: JSON.stringify({
+        "name": name,
+        "email": email,
+        "username": username,
+        "password":password,
+        "mobile":mobile,
+        "description":description
+    }),
+
+    headers: {
+        "Content-type": "application/json; charset=UTF-8"
+    }
+                })
+                .then((res)=>res.json())
+                .then((data)=>{
+                    console.log(data);
+                 
+                        window.location.href="login.html"
+                    
+                });
+           } 
+           catch(error){
+             console.log(error);
+             let p=document.createElement("p");
+             p.innerText=error;
+             document.querySelector("#error").append(p);
+           }
+          }
+</script>

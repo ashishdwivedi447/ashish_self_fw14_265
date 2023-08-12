@@ -1,0 +1,40 @@
+#navbar{
+    display:flex;
+    justify-content: space-around;
+    background-color: yellowgreen;
+    
+}
+
+#navbar>div{
+    display:flex;
+   gap:130px;
+    
+}
+
+#navbar>div>a{
+   text-decoration: none;
+    
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    width:400px;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: teal;
+   
+   
+}
+#create{
+    background-color: tomato;
+    
+}
+form input{
+    height:30px;
+  
+}
+form select{
+    height:30px;
+}

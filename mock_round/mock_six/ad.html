@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/ad.css">
+</head>
+<body>
+
+    <div class="adpageheading">Ad page</div>
+     <div class="form_container">
+        <div>
+            <label for="">Brand:</label>
+          
+            <select name="" id="brand">
+                <option value="safari">safari</option>
+                <option value="scorpio">scorpio</option>
+                <option value="vaganor">vaganor</option>
+                <option value="hyndai">hyndai</option>
+            </select>
+         
+        </div>
+        <div>
+            <label for="">Type:</label>
+          
+            <select name="" id="type">
+                <option value="Manual">Manual</option>
+                <option value="AMT">AMT</option>
+             </select>
+         
+        </div>
+
+        <div>
+            <label for="">Year:</label>
+    
+            <select name="" id="year">
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2013">2013</option>
+             </select>
+         
+        </div>
+        <div>
+            <label for="">KM Drive:</label>
+            <br>
+            <input type="number" id="kms">
+        </div>
+        <div>
+            <label for="">Description:</label>
+            <br>
+            <input type="text" id="description">
+        </div>
+        <div>
+            <label for="">Price:</label>
+            <br>
+            <input type="number" id="price">
+        </div>
+        <div>
+            <button onclick=(postData())>Submit</button>
+        </div>
+     </div>
+     <div class="otp_container">
+        <div>Enter OTP Here</div>
+        <div class="input_container">
+            <input type="number">
+            <input type="number">
+            <input type="number">
+            <input type="number">
+        </div>
+        <div>
+            <button onclick=(closeotpbutton())>Submit</button>
+        </div>
+     </div>
+</body>
+</html>
+<script src="./scripts/ad.js">
+
+</script>

@@ -1,0 +1,74 @@
+
+.usegrid{
+    display: grid;
+    grid-template-columns: repeat(3,280px);
+    padding: 5%;
+    margin-left: 55%;
+    text-align: center;
+
+}
+#p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#rate{
+    background-color: green;
+    color: white;
+    width: 40px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.a{
+    padding: 20px;
+    margin-top: -25px;
+    height: 40px;
+    margin-left: -15px;
+    /* border: 1px solid gray; */
+}
+.ab{
+    padding: 20px;
+    margin-top: -25px;
+    height: 30px;
+    margin-left: -15px;
+    line-height: 8px;
+    /* border: 1px solid gray; */
+}
+p{  
+    line-height: 14px;
+    font-weight: 600;
+    color: rgb(49, 42, 42);
+    font-size: 12.5px;
+}
+#forcard{
+    border: 1px solid rgb(22, 88, 6);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    height:320px;
+}
+h4{
+    font-family: sans-serif; 
+    color: rgb(133, 11, 115);
+    font-weight: bold;
+}
+img{
+    width: 230px;
+    height: 150px;
+    border-radius: 10px;
+}
+.right{
+    display: flex;
+
+}
+.control{
+    margin-left: 50%;
+    width: 100%;
+    justify-content:space-evenly;
+    text-align: center; 
+}
+.patmethod{
+    margin-top: 30px;
+    color: rgb(135, 33, 208);
+}

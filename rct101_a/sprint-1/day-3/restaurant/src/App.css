@@ -1,0 +1,43 @@
+.card{
+  width:350px;
+  height:160px;
+  border:1px solid silver;
+ 
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 30px;
+  
+  
+}
+.image{
+  height:160px;
+  width:100px;
+}
+.contentbox{
+  display:flex;
+  gap:30px;
+}
+.restu{
+  color:red;
+}
+.ordermode{
+  color: greenyellow
+}
+.rating{
+  background-color: green;
+  color:white;
+  width:20px;
+  align-items: center;
+  border-radius: 2px;
+}
+.topportion{
+  margin-left: 380px;
+  margin-top: 30px;
+}
+.btn{
+  margin-left: 20px;
+  background-color: red;
+  color:white;
+  border: transparent;
+  cursor: pointer;
+}

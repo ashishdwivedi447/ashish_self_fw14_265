@@ -1,0 +1,55 @@
+{
+  "Table": [
+    {
+      "name": "santosh",
+      "age": "455",
+      "address": "Rewa",
+      "Department": "Backoffice",
+      "Salary": "20000",
+      "Maritalstatus": false,
+      "Profile": {
+        "0": {}
+      },
+      "id": 1
+    },
+    {
+      "name": "santosh",
+      "age": "455",
+      "address": "Rewa",
+      "Department": "Backoffice",
+      "Salary": "20000",
+      "Maritalstatus": false,
+      "Profile": {
+        "0": {}
+      },
+      "id": 2
+    },
+    {
+      "name": "ramu",
+      "age": "12",
+      "address": "satna",
+      "Department": "Backoffice",
+      "Salary": "1211212",
+      "Maritalstatus": true,
+      "id": 3
+    },
+    {
+      "name": "sneha",
+      "age": "2342",
+      "address": "simrour",
+      "Department": "Backoffice",
+      "Salary": "12345",
+      "Maritalstatus": true,
+      "id": 4
+    },
+    {
+      "name": "sneha",
+      "age": "2342",
+      "address": "simrour",
+      "Department": "Backoffice",
+      "Salary": "12345",
+      "Maritalstatus": true,
+      "id": 5
+    }
+  ]
+}

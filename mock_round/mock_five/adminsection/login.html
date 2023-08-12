@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.login_heading{
+    font-size: 30px;
+    text-decoration: underline;
+    margin:0 0 0 45%;
+}
+.login_container{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+    margin:30px 0 0 0;
+}
+
+    </style>
+</head>
+<body>
+    <div class="login_heading">Login Page</div>
+    <div class="login_container">
+        <div>
+            <input type="text" placeholder="Email" id="email">
+        </div>
+
+        <div>
+            <input type="password" placeholder="Password" id="password">
+        </div>
+        <div>
+           <button onclick=(login())>Login</button>
+        </div>
+       <div class="error"></div>
+    </div>
+</body>
+</html>
+
+<script>
+    function login(){
+        let email=document.querySelector("#email").value;
+        let password=document.querySelector("#password").value;
+
+        //console.log(email,password);
+
+        fetch("https://reqres.in/api/login",{
+            
+            method: "POST",
+
+            body: JSON.stringify({
+        email: email,
+        password: password,
+       
+    }),
+    headers: {
+        "Content-type": "application/json"
+    }
+        })
+        .then((res)=>res.json())
+        .then((data)=>{
+            console.log(data)
+
+            if(data){
+                window.location.href="data.html"
+            }
+        })
+        .catch((error)=>{
+       document.querySelector("#error").append(error);
+        })
+    }
+</script>

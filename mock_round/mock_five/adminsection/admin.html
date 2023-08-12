@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .adminpage{
+            display:flex;
+            justify-content: space-around;;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="adminpage">
+       <div id="data_page">Data Page</div>
+       <div id="repos">Reports Page</div>
+    </div>
+</body>
+</html>
+
+<script>
+    document.querySelector("#data_page").addEventListener("click",migrate);
+
+    document.querySelector("#repos").addEventListener("click",reports);
+
+    function migrate(){
+        window.location.href="login.html";
+    }
+
+    function reports(){
+        window.location.href="reports.html";
+    }
+</script>

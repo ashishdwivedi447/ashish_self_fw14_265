@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .userpagegeading{
+            font-size: 30px;
+            color:brown;
+            margin:20px 0 0 600px;
+            text-decoration: underline
+            
+        }
+        .formcontainer{
+            display:flex;
+            flex-direction: column;;
+            gap:20px;
+            align-items: center;
+            margin:50px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+     <div class="userpagegeading">UserPage</div>
+     <div class="formcontainer">
+        <div>
+            <input type="text" placeholder="Name" id="name">
+        </div>
+        <div>
+            <input type="number" placeholder="Age" id="age">
+        </div>
+        <div>
+            <input type="text" placeholder="Place" id="place">
+        </div>
+        <div>
+            <label for="">Batch Name</label>
+            <select name="" id="batchname">
+                <option value="WEB-13">WEB-13</option>
+                <option value="WEB-14">WEB-14</option>
+                <option value="WEB-15">WEB-15</option>
+            </select>
+        </div>
+        <div>
+          <label for="">Profession</label>
+          <select name="" id="profession">
+            <option value="FSD">FSD</option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="Student">Student</option>
+
+          </select>
+        </div>
+        <div>
+           <button onclick=(registration())>Submit</button>
+        </div>
+     </div>
+</body>
+</html>
+
+<script>
+    function registration(){
+        let name=document.querySelector("#name").value;
+        let age=document.querySelector("#age").value;
+        let place=document.querySelector("#place").value;
+        let batch=document.querySelector("#batchname").value;
+        let profession=document.querySelector("#profession").value;
+
+       console.log(name,age,place,batch,profession);
+
+       
+            fetch("https://sixhourmock.herokuapp.com/users",{
+
+                method: "POST",
+                body: JSON.stringify({
+        "name": name,
+        "age": age,
+        "place": place,
+        "batch_name":batch,
+       "profession":profession,
+    }),
+    headers: {
+        "Content-type": "application/json"
+    }
+            })
+            .then((res)=>
+                 res.json()
+            )
+            .then((data)=>{
+                console.log(data);
+                alert("Successfully Registered")
+            })
+            .catch((error)=>console.log(error))
+       
+       
+
+
+    }
+</script>

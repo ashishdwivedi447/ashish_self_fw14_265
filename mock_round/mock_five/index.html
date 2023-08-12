@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masaiverse Mock</title>
+    <style>
+        .home{
+            display:flex;
+            justify-content: center;
+            gap:100px;
+            margin:40px 0 0 40px;
+        }
+        .homepage_heading{
+            margin: 10px  0 0 45%;
+            font-size: 40px;
+            color:white;
+            background-color: red;
+            width:200px;
+            padding:0 0 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="homepage_heading">Home Page</div>
+    <div class="home">
+        <button onclick=(user())>Usersection</button>
+        <button onclick=(admin())>Adminsection</button>
+    </div>
+</body>
+</html>
+
+<script>
+    function user(){
+        window.location.href="./usersection/user.html";
+    }
+
+    function admin(){
+        window.location.href="./adminsection/admin.html";
+    }
+</script>

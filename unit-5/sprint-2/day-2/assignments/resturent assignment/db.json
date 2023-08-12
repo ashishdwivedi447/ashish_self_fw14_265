@@ -1,0 +1,183 @@
+{
+  "Restorent": [
+    {
+      "name": "Family Resto",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkOgk4FIkm1dzplUqKpoCM_5yYsFXqHgMetQ&usqp=CAU",
+      "food": "Roti,Paneer,Sweet",
+      "prize": "220",
+      "rating": "4.2",
+      "votes": "123",
+      "rivew": "22",
+      "payment_methods": {
+        "card": true,
+        "cash": false,
+        "upi": true
+      },
+      "id": 1
+    },
+    {
+      "name": "Chintu ka Dhaba",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCfiR4moLxZCdruLdUnV8D-8pnpWn6a3k9EA&usqp=CAU",
+      "food": "Panner Makhani,Dal Tadka,Pulav",
+      "prize": "30",
+      "rating": "5",
+      "votes": "123",
+      "rivew": "123",
+      "payment_methods": {
+        "card": false,
+        "cash": true,
+        "upi": false
+      },
+      "id": 2
+    },
+    {
+      "name": "Burger King",
+      "image": "https://www.foodbusinessnews.net/ext/resources/2020/5/BKAtHome_Lead.jpg?t=1588594467&width=1080",
+      "food": "Burger,Pizza,Soft Drinks",
+      "prize": "123",
+      "rating": "4",
+      "votes": "445",
+      "rivew": "455",
+      "payment_methods": {
+        "card": true,
+        "cash": false,
+        "upi": false
+      },
+      "id": 3
+    },
+    {
+      "name": "Shivneri",
+      "food": "Zunka-Bhakri",
+      "prize": "50",
+      "rating": "5",
+      "votes": "500",
+      "rivew": "4",
+      "payment_methods": {
+        "card": true,
+        "cash": false,
+        "upi": false
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCzWumTvA_K-bvN1Ed2qJo3Piyj20FAg-KRw&usqp=CAU",
+      "id": 4
+    },
+    {
+      "name": "Anna",
+      "food": "Dal-Tadka",
+      "prize": "80",
+      "rating": "5",
+      "votes": "230",
+      "rivew": "4",
+      "payment_methods": {
+        "card": true,
+        "cash": false,
+        "upi": false
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwfOSRvKjwQ0D54y2qgRZXEg7OQFQYptk16w&usqp=CAU",
+      "id": 5
+    },
+    {
+      "name": "Son of  Sardar",
+      "food": "Milk",
+      "prize": "70",
+      "rating": "3",
+      "votes": "800",
+      "rivew": "56",
+      "payment_methods": {
+        "card": false,
+        "cash": false,
+        "upi": true
+      },
+      "image": "data:image/jpeg;base64,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",
+      "id": 6
+    },
+    {
+      "name": "Tejasvini",
+      "food": "Roti",
+      "prize": "12",
+      "rating": "1",
+      "votes": "12",
+      "rivew": "12",
+      "payment_methods": {
+        "card": false,
+        "cash": false,
+        "upi": false
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCzWumTvA_K-bvN1Ed2qJo3Piyj20FAg-KRw&usqp=CAU",
+      "card": true,
+      "cash": true,
+      "id": 7
+    },
+    {
+      "name": "Tejasvini",
+      "food": "Roti",
+      "prize": "12",
+      "rating": "1",
+      "votes": "12",
+      "rivew": "12",
+      "payment_methods": {
+        "card": false,
+        "cash": false,
+        "upi": false
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCzWumTvA_K-bvN1Ed2qJo3Piyj20FAg-KRw&usqp=CAU",
+      "card": true,
+      "cash": true,
+      "id": 8
+    },
+    {
+      "name": "Tejasvini",
+      "food": "Roti",
+      "prize": "12",
+      "rating": "1",
+      "votes": "12",
+      "rivew": "12",
+      "payment_methods": {
+        "card": false,
+        "cash": false,
+        "upi": false
+      },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCzWumTvA_K-bvN1Ed2qJo3Piyj20FAg-KRw&usqp=CAU",
+      "card": true,
+      "cash": true,
+      "id": 9
+    },
+    {
+      "name": "Tejasvini",
+      "food": "Roti",
+      "prize": "12",
+      "rating": "12",
+      "votes": "12",
+      "rivew": "12",
+      "card": true,
+      "cash": false,
+      "upi": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCzWumTvA_K-bvN1Ed2qJo3Piyj20FAg-KRw&usqp=CAU",
+      "id": 10
+    },
+    {
+      "name": "Tejasvini",
+      "food": "Roti",
+      "prize": "12",
+      "rating": "12",
+      "votes": "12",
+      "rivew": "12",
+      "card": true,
+      "cash": false,
+      "upi": false,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCzWumTvA_K-bvN1Ed2qJo3Piyj20FAg-KRw&usqp=CAU",
+      "id": 11
+    },
+    {
+      "name": "",
+      "food": "",
+      "prize": null,
+      "rating": null,
+      "votes": null,
+      "rivew": null,
+      "card": false,
+      "cash": false,
+      "upi": false,
+      "id": 12
+    }
+  ]
+}

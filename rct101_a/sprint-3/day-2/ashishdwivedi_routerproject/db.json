@@ -1,0 +1,182 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1862801/2018/2/9/11518155061506-Roadster-Men-Maroon--Navy-Blue-Regular-Fit-Checked-Casual-Shirt-8861518155061131-1.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 824"
+    },
+    {
+      "id": 2,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2347555/2019/12/3/77c23017-fd9d-4ad8-95f5-8722154e85ac1575361938857-HIGHLANDER-Men-White--Blue-Slim-Fit-Striped-Casual-Shirt-304-1.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 445"
+    },
+    {
+      "id": 3,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7488102/2019/8/22/8002a744-0dad-4dbb-9481-cf0090134c3b1566454086786-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-1.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 600"
+    },
+    {
+      "id": 4,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2164373/2017/11/15/11510749192975-Roadster-Men-Brown--Black-Regular-Fit-Checked-Casual-Shirt-8071510749192783-1.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 590"
+    },
+    {
+      "id": 5,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7488103/2019/8/22/acfba45f-8f9c-4b97-b5bc-a909418bdf4c1566454100620-Dennis-Lingo-Men-Green-Slim-Fit-Solid-Casual-Shirt-358156645-3.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 430"
+    },
+    {
+      "id": 6,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/10673544/2019/9/24/6b9c7688-7ca2-4d11-9e5b-a3745ecd8f761569310358973-The-Indian-Garage-Co-Men-Shirts-8481569310357131-1.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 890"
+    },
+    {
+      "id": 7,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16088058/2022/3/15/249fd38f-ca9a-4dc9-a745-ca06183fc0141647343661202TommyHilfigerMenNavyBlueBrandLogoEmbroideredPoloCollarT-shir1.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 340"
+    },
+    {
+      "id": 8,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/8889611/2019/3/20/3eae8fb4-b7ca-4e01-80bf-d1e59ab1568d1553080254589-Roadster-Men-Black--White-Regular-Fit-Checked-Casual-Shirt-9-1.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 679"
+    },
+    {
+      "id": 9,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1427743/2019/7/26/2e386397-f71f-4425-8da4-c4775d269a881564138816854-WROGN-Men-Blue-Slim-Fit-Printed-Casual-Shirt-425156413881502-1.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 350"
+    },
+    {
+      "id": 10,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1862801/2018/2/9/11518155061506-Roadster-Men-Maroon--Navy-Blue-Regular-Fit-Checked-Casual-Shirt-8861518155061131-1.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 670"
+    },
+    {
+      "id": 11,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/10945122/2021/12/14/78f009f3-cc9b-4c32-bdc0-64f123adafc61639482743454RoadsterMenGreenRegularFitSolidCasualShirt1.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 340"
+    },
+    {
+      "id": 12,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17807844/2022/4/29/11ed3d1c-7738-4f5b-b43b-0e226e0c78de1651210563067-Louis-Philippe-Jeans-Men-Shirts-441651210562515-1.jpg",
+      "brand": "Roadster",
+      "type": "Men Checked Casual Shirt",
+      "price": "Rs 670"
+    }
+  ],
+  "men": [
+    {
+      "id": 13,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17413524/2022/6/8/490ffed2-0f87-4568-bd45-2f9c6caf087d1654678513548-Nautica-Men-Black-Regular-Fit-Stretchable-Jeans-580165467851-6.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 14,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16747906/2022/5/5/4880107a-dd6a-4ee6-8c7b-8622b142b6c21651749303669-Levis-Men-Blue-Slim-Fit-Mid-Rise-Light-Fade-Stretchable-Jean-1.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 15,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17413524/2022/6/8/490ffed2-0f87-4568-bd45-2f9c6caf087d1654678513548-Nautica-Men-Black-Regular-Fit-Stretchable-Jeans-580165467851-6.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 16,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2290020/2018/2/7/11518001291442-HIGHLANDER-Men-Black-Slim-Fit-Mid-Rise-Clean-Look-Stretchable-Jeans-8231518001291181-1.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 17,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17413524/2022/6/8/490ffed2-0f87-4568-bd45-2f9c6caf087d1654678513548-Nautica-Men-Black-Regular-Fit-Stretchable-Jeans-580165467851-6.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 18,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2524977/2018/7/27/58bee568-4d0a-4dec-a364-50623789d42c1532693715068-Roadster-Men-Jeans-1371532693713186-1.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 19,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17413524/2022/6/8/490ffed2-0f87-4568-bd45-2f9c6caf087d1654678513548-Nautica-Men-Black-Regular-Fit-Stretchable-Jeans-580165467851-6.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 20,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/5670082/2022/4/19/33026568-9ea9-4fa6-9344-67e06e2186c71650361538625-Roadster-Men-Navy-Blue-Skinny-Fit-Mid-Rise-Low-Distress-Stre-1.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 21,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2425786/2018/3/22/11521710079400-Roadster-Men-Black-Skinny-Fit-Mid-Rise-Clean-Look-Stretchable-Jeans-1011521710079148-1.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 22,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17413524/2022/6/8/490ffed2-0f87-4568-bd45-2f9c6caf087d1654678513548-Nautica-Men-Black-Regular-Fit-Stretchable-Jeans-580165467851-6.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 23,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2338465/2020/10/15/75cca87d-29e7-4962-9d5f-2e3e15d01cfe1602751193849-WROGN-Men-Blue-Jogger-Mid-Rise-Clean-Look-Stretchable-Jeans--1.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 24,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17807530/2022/4/27/dd1ea78b-d78c-4e11-8c5b-7daeee5effff1651040554982-Louis-Philippe-Jeans-Men-Jeans-8271651040554421-1.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    },
+    {
+      "id": 25,
+      "imageurl": "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17807866/2022/4/23/d1c4c3a4-559b-4246-a680-1bbace425ca61650710509768-Louis-Philippe-Jeans-Men-Jeans-8191650710509116-1.jpg",
+      "brand": "Levis",
+      "type": "Men slim Fit Jeans",
+      "price": "Rs 900"
+    }
+  ]
+ 
+}

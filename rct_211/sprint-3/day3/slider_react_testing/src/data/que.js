@@ -1,0 +1,22 @@
+export const que = [
+    {
+        id:1,
+        question:"1",
+        answer:"1"
+    },
+    {
+        id:2,
+        question:"2",
+        answer:"2"
+    },
+    {
+        id:3,
+        question:"3",
+        answer:"3"
+    },
+    {
+        id:4,
+        question:"4",
+        answer:"4"
+    }
+]

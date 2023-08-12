@@ -1,0 +1,22 @@
+.navbar{
+    display:flex;
+    gap:100px;
+    justify-content: center;
+    
+    background-color: pink;
+    height:40px;
+    align-items: center;
+}
+.navbar>div:nth-child(1){
+    color:blueviolet;
+    font-size: 25px;
+    font-style:normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.link{
+    text-decoration: none;
+    color:brown
+}
+.banner{
+    margin-top: 40px;
+}

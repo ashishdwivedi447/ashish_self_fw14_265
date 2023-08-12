@@ -1,0 +1,10 @@
+.navmain{
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.go{
+    margin: 10px;
+    text-decoration: none;
+}

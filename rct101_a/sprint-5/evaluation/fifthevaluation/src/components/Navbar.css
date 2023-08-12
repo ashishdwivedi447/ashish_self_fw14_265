@@ -1,0 +1,13 @@
+.navbar{
+    display:flex;
+    justify-content: center;
+    gap:150px;
+    align-items: center;
+    background-color: pink;
+    height:60px;
+}
+
+.link{
+    text-decoration: none;
+    color: blueviolet;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .datapage_heading{
+            font-size: 30px;
+            text-decoration: underline;
+            margin:10px 0 0 45%;
+        }
+        .boxcontineer{
+            display:flex;
+           justify-content: space-around;
+           margin:20px 0 0 0;
+
+        }
+        #image{
+            height:150px;
+        }
+        #maindiv{
+            border:2px solid red;
+            width:266px;
+            margin:50x 0 0 30px;
+        }
+        #appenddata{
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-gap:20px;
+            margin:50x 0 0 30px;
+        }
+        #deleteedit{
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="datapage_heading">Data Page</div>
+    <div class="boxcontineer">
+        
+    <div >
+        <label for="">sort</label>
+        <select name="" id="sortage">
+            <option value="high">high to low</option>
+            <option value="low">low to high</option>
+        </select>
+    </div>
+    <div>
+        <input type="text" placeholder="Enter Name to be searched" id="search">
+    </div>
+    <div>
+
+        <label for="">filter</label>
+       <select name="" id="batchfilter">
+        <option value="WEB-13">WEB-13</option>
+        <option value="WEB-14">WEB-14</option>
+        <option value="WEB-15">WEB-15</option>
+       </select>
+    </div>
+</div>
+
+    <div id="appenddata"></div>
+</body>
+</html>
+
+<script>
+    function getData(){
+        fetch("https://sixhourmock.herokuapp.com/users")
+        .then((res)=>res.json())
+        .then((data)=>{
+           // console.log(data)
+
+            displayData(data);
+
+            sort(data)
+            filter(data)
+        })
+        .catch((error)=>console.log(error));
+    }
+
+    getData();
+
+    function displayData(data){
+//console.log(data);
+
+
+      data.map((item)=>{
+        console.log(item);
+        let maindiv=document.createElement("div");
+        maindiv.id="maindiv";
+      let image=document.createElement("img");
+      image.src="https://reactjs.org/static/7dc9d7cff3cf7927d63e36c9ab56a447/0f98f/gaearon.jpg"
+      image.id="image";
+      let namediv=document.createElement("div");
+      namediv.innerText=item.name;
+      let agediv=document.createElement("div");
+      agediv.innerText=item.age;
+      let placediv=document.createElement("div");
+      placediv.innerText=item.place;
+
+      let batchdiv=document.createElement("div");
+      batchdiv.innerText=item.batch_name;
+
+      let professiondiv=document.createElement("div");
+      professiondiv.innerText=item.profession;
+
+      let deleteedit=document.createElement("div");
+
+      deleteedit.id=deleteedit;
+      let deletebutton=document.createElement("button");
+      deletebutton.innerText="Delete"
+      let editbutton=document.createElement("button");
+      editbutton.innerText="Edit";
+
+      deleteedit.append(deletebutton,editbutton);
+
+      maindiv.append(image,namediv,agediv,placediv,batchdiv,professiondiv,deleteedit);
+
+      document.querySelector("#appenddata").append(maindiv);
+      
+      })
+    }
+
+       function sort(data){
+        let value=document.querySelector("#sortage").value;
+
+        console.log(value);
+       }
+</script>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/car.css">
+</head>
+<body>
+    <div class="car_pageheading">Car page</div>
+
+    <div class="filter_container">
+        <div>
+            <label for="">Sort By Price:</label>
+            <select name="" id="sortprice" onchange="sortprice(value)">
+                <option value="high">Hight to low</option>
+                <option value="low">low to high</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Sort By kms</label>
+            <select name="" id="sortkms" onchange="sortkm(value)">
+                <option value="high">Hight to low</option>
+                <option value="low">low to High</option>
+            </select>
+           
+        </div>
+
+        <div>
+            <label for=""> Filter By Brand:</label>
+          
+            <select name="" id="filter" onchange="filter(value)">
+                <option value="safari">safari</option>
+                <option value="scorpio">scorpio</option>
+                <option value="vaganor">vaganor</option>
+                <option value="hyndai">hyndai</option>
+            </select>
+         
+        </div>
+    </div>
+
+    <div id="appendData"></div>
+</body>
+</html>
+<script src="./scripts/car.js">
+
+</script>

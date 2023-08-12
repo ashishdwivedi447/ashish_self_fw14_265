@@ -1,0 +1,108 @@
+.buttondiv{
+    display:flex;
+   gap:30px;
+  margin:30px 0 30px 42%;
+
+color:yellowgreen
+  
+}
+
+.buttondiv>button{
+    background-color: yellowgreen;
+    font-size: 30px;
+    border:none;
+    cursor: pointer;
+}
+.sort_buttton{
+    display:flex;
+    justify-content: space-around;
+    margin:30px 0 0 0;
+}
+
+.sort{
+    display: flex;
+    gap:40px;
+}
+.sort>:nth-child(1){
+    color:brown
+}
+.sort>:nth-child(2){
+    color:red;
+}
+.top10button{
+    background-color: pink;
+    font-size: 25px;
+}
+.card{
+   
+    width:400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.imageauthor{
+    display:flex;
+    gap:50px;
+    padding:30px 0 0 20px;
+   
+}
+.imageauthor>img{
+    height:60px;
+    border-radius: 50px;
+}
+.imageauthor>:nth-child(2){
+    font-size: 35px;
+    font-weight: bold;
+}
+.title{
+    font-size: 20px;
+    color:teal;
+   padding:20px 20px 0 40px;
+}
+.chaticonandnum{
+display:flex;
+gap:170px;
+padding:20px 20px 20px 20px
+}
+
+.chaticonandnum>:nth-child(2){
+    color:blueviolet;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.iconcomments{
+    display:flex;
+    gap:15px;
+    align-items: center;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+    .gridcontainer{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:40px;
+        padding:50px 30px 0 25px;
+    }
+}
+@media only screen and (min-width: 421px) and (max-width: 720px) {
+    .gridcontainer{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:40px;
+        padding:50px 30px 0 25px;
+    }
+}
+@media only screen and (min-width: 721px) {
+    .gridcontainer{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:40px;
+        padding:50px 30px 0 25px;
+    }
+}
+.created{
+    padding:10px 0 0 20px;
+    color: green;
+}

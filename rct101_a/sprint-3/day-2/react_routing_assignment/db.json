@@ -1,0 +1,36 @@
+{
+    "data":[
+        {
+            "name" : "SmartPhone",
+            "price": 30,
+            "id" : 1
+        },
+        {
+            "name" : "Watch",
+            "price" : 20,
+            "id" : 2
+        },
+        {
+            "name" : "Shirt",
+            "price" : 50,
+            "id" : 3
+        },
+        {
+            "name" : "Pants",
+            "price" : 100,
+            "id" : 4
+        },
+        {
+            "name" : "Trowser",
+            "price" : 150,
+            "id" : 5
+        }
+        ,
+        {
+            "name" : "innerwear",
+            "price" : 200,
+            "id" : 6
+        }
+       
+    ]
+}

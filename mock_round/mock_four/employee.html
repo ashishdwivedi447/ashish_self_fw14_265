@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Gender</th>
+            <th>Salary</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+</html>
+
+<script>
+    function getData(){
+        fetch("https://dbioz2ek0e.execute-api.ap-south-1.amazonaws.com/mockapi/get-employees")
+        .then((res)=>res.json())
+        .then((data)=>
+        {//console.log(data.data)
+
+            appendData(data.data);
+        });
+    }
+
+    getData();
+
+
+    function appendData(data){
+        console.log(data);
+
+        data.map((item)=>{
+            let tr=document.createElement("tr");
+            var td1=document.createElement("td");
+            let img=document.createElement("img");
+            img.src=item.image
+             td1.append(img)
+            let td2=document.createElement("td");
+            td2.innerText=item.name
+            let td3=document.createElement("td");
+            td3.innerText=item.department
+            let td4=document.createElement("td");
+            td4.innerText=item.gender;
+            let td5=document.createElement("td");
+            td5.innerText=item.salary;
+
+            tr.append(td1,td2,td3,td4,td5);
+
+            document.querySelector("tbody").append(tr);
+            
+        })
+    }
+</script>

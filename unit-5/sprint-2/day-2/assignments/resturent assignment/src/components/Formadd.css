@@ -1,0 +1,49 @@
+input{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 250px;
+    padding: 5px;
+    margin-right: 10px;
+}
+  #submit{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(12, 11, 11);
+    color: white;
+    border: none;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .Singletodo{
+    width: 500px;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 12px;
+    border-radius: 10px;
+    justify-content: space-around;
+  }
+  .page{
+    justify-content:space-between;
+    text-align: center;    
+    margin-left: 80%;
+    width: 80%;
+}
+h1{
+  font-family: cursive;
+}
+.form{
+  position: fixed;
+  background-color:rgb(171, 218, 193);
+  margin-left: 5%;
+  width: 350px;
+  border: 1px solid gray;
+  text-align: center;
+  justify-content: center;
+  padding: 3%;
+  height: 600px;
+  border-radius: 10px;
+}
+.payment{
+  display: flex;
+}
